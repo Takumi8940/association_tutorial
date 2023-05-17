@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
   root 'tweets#index'
+  devise_for :users
   resources :tweets
   resources :users
-  devise_for :users
 
   #===不要のためコメントアウト===
   # get 'tweets/new'
