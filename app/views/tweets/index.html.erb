@@ -7,3 +7,10 @@
     <hr>
     <p><span>ツイート内容: </span><%= link_to tweet.body, tweet_path(tweet.id) %></p>
 <% end %>
+
+<%# 
+
+link_to tweet.body, tweet_path(tweet.id)と
+link_to メールの内容,ツイートモデルのツイートidをパスとして渡す
+
+%>

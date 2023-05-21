@@ -14,6 +14,6 @@ class UsersController < ApplicationController
     #レコードを一つ取り出す場合に、findメソッドが使用される。
 
     #paramsとは
-    #railsで送られてきた値を受け取るためのメソッド。
+    #Viewから送られてきた値を受け取るためのメソッド。
   end
 end

@@ -1,5 +1,11 @@
 <h1>Users#show</h1>
 <p>Find me in app/views/users/show.html.erb</p>
 <hr>
+<p><span>email: </span><%= @user.email %></p>
 
-<% <p><span>email: </span><% @user.email %></p>
+<%#
+"<%= @user.email %.>"は、userモデルにあるemailを取得し表示する
+
+<%= %.>はコードを表示させるとき「=」を入れる
+<% %.>はコードを表示させるとき「=」を入れる
+%>
