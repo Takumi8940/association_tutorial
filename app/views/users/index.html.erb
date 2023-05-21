@@ -5,5 +5,17 @@
 
 <% @users.each do |user| %>
     <hr>
-    <p><span>email: <span><%= link_to user.email, user_path(user.id) %></p>
+    <p><span>email: </span><%=link_to user.email,user_path(user.id)  %></p>
 <% end %>
+
+<%# 
+
+link_to user.email,user_path(user.id) とは
+link_to 表示=ユーザのアドレス, パス=ユーザーid
+となっている
+
+link_toコードの構成
+「link_to '表示したい文字', パス」
+となっている
+
+%>
